@@ -1,0 +1,13 @@
+D:\EXAM\68000135\BC\238\SRC\PROG1\Prog1.java:22: 错误: 需要']'
+                boolean[n]=false;
+                        ^
+D:\EXAM\68000135\BC\238\SRC\PROG1\Prog1.java:22: 错误: 需要';'
+                boolean[n]=false;
+                         ^
+D:\EXAM\68000135\BC\238\SRC\PROG1\Prog1.java:26: 错误: 需要']'
+                boolean[n]=true;
+                        ^
+D:\EXAM\68000135\BC\238\SRC\PROG1\Prog1.java:26: 错误: 需要';'
+                boolean[n]=true;
+                         ^
+4 个错误
