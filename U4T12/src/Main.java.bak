@@ -1,0 +1,21 @@
+import cn.com.my.CountNumber;
+import cn.com.my.MobileTelephone;
+import cn.com.my.SIMOfChinaMobile;
+import cn.com.my.SIMOfChinaUnicom;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("第三题");
+        SIMOfChinaMobile chinaMobile=new SIMOfChinaMobile();
+        SIMOfChinaUnicom chinaUnicom=new SIMOfChinaUnicom();
+        MobileTelephone phone0=new MobileTelephone();
+        MobileTelephone phone1=new MobileTelephone(chinaMobile);
+        phone1.useSIM(chinaUnicom);
+        System.out.println("------------------");
+        System.out.println("第四题");
+        CountNumber countNumber=new CountNumber();
+        countNumber.count("1324AVE32");
+
+    }
+
+}
